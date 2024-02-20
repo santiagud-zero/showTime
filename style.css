@@ -1,0 +1,256 @@
+body{
+    background: #8b83bf;
+}
+/* Estilos header */
+header{
+    height: 100vh; 
+    background: url(img/familia.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    flex-direction: column;
+    justify-content:space-between
+}
+
+header nav{
+    background-color: transparent;
+}
+header nav div h1{
+    color: #7647c8;
+    font-size: 25px;
+    margin-left: 16px;
+    font-family: 'Protest Riot', sans-serif;
+    
+}
+/* Estilos del menu */
+.bg-nav-rumbo{
+    background: transparent !important;
+    margin-right: 20px;
+    
+}
+
+.bg-nav-rumbo ul li a.nav-link{
+    color: #9E0059;
+    font-size: 20px;
+    font-weight: 700;
+    /* margin-top: -100px; */
+    margin-bottom: 50px;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+}
+.navbar-brand img {
+    width: 60%; 
+    height: 60%; 
+    border-radius: 50%; 
+}
+.bg-nav-rumbo ul li a.nav-link:hover{
+    border-bottom: 2px solid #FF5400;
+ 
+}
+
+/* Estilos  de descripcion*/
+#descripcion{
+    font-family: 'Happy Monkey', system-ui;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* personajes */
+#personajes{
+    width: 100%;
+    background-color: #57388d;
+    padding-top: 50px;
+    text-align: center;
+   
+}
+
+#personajes h2{
+
+    color: #521275;
+    font-size: 50px;
+    font-family: 'Protest Riot', sans-serif;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+#personajes h3 {
+    color: #4f0c74;
+    font-size: 28px;
+    margin: 20px 0px 50px;
+    font-weight: 600;
+    font-family: 'Happy Monkey', system-ui;
+}
+.marco{
+    background-color: #331d5a;
+    padding: 10px;
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+.marcoM{
+    background-color: #331d5a;
+    padding: 30px;
+    width: 100%;
+    height: 65%;
+    margin-top: 45px;
+    border-radius: 50%;
+}
+/* Curiosidades */
+#curiosidades{
+    background: #7b4f8c;
+    padding: 35px;
+}
+#curiosidades h2{
+    text-align: center;
+    font-size: 50px;
+    color: #1c004a;
+    font-family: 'Protest Riot', sans-serif;
+    margin-bottom: 40px;
+}
+#curiosidades p{
+    text-align: justify;
+    font-family: 'Happy Monkey', system-ui;
+    font-size: 20px;
+    font-weight: 500;
+}
+.card-body{
+    background: #c7b1c6;
+    border-radius: 20px;
+    border: 3px solid #310b70;
+}
+.card{
+    background: #7b4f8c;;
+    border: transparent;
+}
+.futuro{
+    margin-top: -10px;
+}
+.revista{
+    margin-top: 60px;
+}
+/* lugares */
+#lugares{
+    background: #c7b1c6;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  
+}
+
+#lugares h2{
+    color: #4b0e4a;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+#lugares p{
+    font-family: 'Happy Monkey', system-ui;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+/* Records */
+#records{
+    padding: 50px 0;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    background: #7b4f8c;;
+}
+#records h2{
+    color: #4b0e4a;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 50px;
+}
+#records img{
+    width: 60%;
+    height: 60%;
+    margin-top: -30px;
+}
+#records p{
+    font-size: 20px;
+    font-family: 'Happy Monkey', system-ui;
+   
+}
+#records .plan{
+    margin-top: 80px;
+    position: relative;
+}
+#records .plan h3{
+    color: #310b70;
+top: 100px;
+font-family: 'Happy Monkey', system-ui;
+left: 0;
+right: 0;
+text-align: center;
+}
+#records .plan h3 a{
+    color: #5e1a5d;
+    text-decoration: none;
+}
+
+
+/* Promocion */
+#promocion{
+    background: #c7b1c6;
+    padding: 0;
+}
+#promocion  p{
+    text-align: center;
+    margin-top: 35px;
+    color: black;
+    font-weight: 400;
+}
+.s{
+    font-family: 'Happy Monkey', system-ui;
+    font-size: 20px;
+    text-align: center;
+}
+.tituloP{
+    text-align: center;
+    font-family: 'Protest Riot', sans-serif;
+    padding: 20px;
+    font-size: 50px;
+    color: #341d3d;;
+}
+iframe{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+/* Estilos de ver */
+#ver{
+    background: #8b83bf;
+text-align: center;
+}
+#ver h2{
+    color: #5e1a5d;
+    margin-top: 17px;
+    font-size: 50px;
+    font-family: 'Protest Riot', sans-serif;
+}
+#ver p{
+    font-family: 'Happy Monkey', system-ui;
+    font-size: 20px;
+}
+
+#ver img{
+    width: 100%;
+    height: 100vh;
+}
+/* Footer */
+footer{
+    background-color: #623972;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    
+    
+}
